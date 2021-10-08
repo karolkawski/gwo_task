@@ -1,0 +1,28 @@
+@import '../../../fonts/stylesheet.css';
+.nav-list {
+    width: 540px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    &__item {
+        font: normal normal 300 22px/30px 'Proxima Nova Alt Rg';
+        letter-spacing: -0.84px;
+        color: #1C4961;
+        opacity: 0.75;
+        cursor: pointer;
+        user-select: none;
+        transition: all .2s ease-in-out;
+
+
+        &:hover {
+            opacity: 1;
+            transition: all .2s ease-in-out;
+
+        }
+
+        &--active {
+            font: normal normal 600 22px/30px 'Proxima Nova Alt Lt';
+            opacity: 1;
+        }
+    }
+}

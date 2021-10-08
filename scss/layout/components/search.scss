@@ -1,0 +1,73 @@
+.search {
+    width: 876px;
+    height: 89px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__location {
+    }
+    &__title {
+        text-align: left;
+        font: normal normal 600 20px/27px 'Proxima Nova Alt Rg';
+        letter-spacing: -0.76px;
+        color: #151515;
+        opacity: 1;
+    }
+
+    &__button {
+        background-color: #ffffff;
+        border: unset;
+        text-align: left;
+        font: normal normal normal 16px/21px 'Proxima Nova Alt Rg';
+        letter-spacing: 0px;
+        color: #7E7E7E;
+        opacity: 0.8;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+
+        &.hide {
+            display: none;
+        }
+
+    }
+    &__input {
+        border: none;
+        text-align: left;
+        font: normal normal normal 16px/21px 'Proxima Nova Alt Rg';
+        letter-spacing: 0px;
+        color: #7E7E7E;
+        text-transform: capitalize;
+        opacity: 0.8;
+        cursor: pointer;
+        margin:0;
+        padding: 0;
+
+        &--w185 {
+            width: 185px;
+        }
+    }
+
+    &__icon {
+        width: 13px;
+        height: 13px;
+        &--glass {
+            padding-right: 5px;
+
+        }
+    }
+
+    &__separator {
+        width: 0px;
+        height: 55px;
+        border: 0.5px solid #B4C6EE;
+        border: 0.5px solid #B4C6EE;
+        opacity: 1;
+    }
+
+}

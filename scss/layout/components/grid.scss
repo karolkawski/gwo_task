@@ -1,0 +1,41 @@
+@import '../../../fonts/stylesheet.css';
+.grid {
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+    &__box {
+        width: 369px;
+        height: 293px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 10px 40px 50px #E5E9F666;
+        opacity: 1;
+        padding: 26px 29px;
+    }
+    &__icon {
+        width: 103px;
+        height: 97px;
+        box-shadow: 0px 3px 6px #EBF0FE;
+        background: #EBF0FE 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #F0F4FC;
+        border-radius: 12px;
+        opacity: 0.75;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        text-align: left;
+        font: normal normal 600 24px/32px 'Proxima Nova Alt Lt';
+        letter-spacing: -0.91px;
+        color: #0F0F0F;
+        opacity: 1;
+        margin: 1rem 0;
+    }
+    &__description {
+        text-align: left;
+        font: normal normal normal 20px/27px 'Proxima Nova Alt Rg';
+        letter-spacing: -0.76px;
+        color: #0F0F0F;
+        opacity: 1;
+    }
+}
