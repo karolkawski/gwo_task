@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpack Boilerplate Starter Template</title>
+    <meta name="description" content="Simple starter webpack 5 project template boilerplate supporting SASS/PostCSS, Babel ES7, browser syncing, code linting. Easy project setup having multiple features and developer friendly tools.">
+    <meta name="keywords" content="webpack, webpack-configuration, template, boilerplate, setup, html, css, sass, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/mc-datepicker/dist/mc-calendar.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/mc-datepicker/dist/mc-calendar.min.js"></script>
+    <link rel="stylesheet" href="js/components/MCDatepicker-master/src/scss/main.scss">
+
+  </head>
+  <body class="app">
+    <header class="app__header">
+      <figure class="app__logo">
+        <img src="/assets/images/logo.png" alt=""/>
+      </figure>
+      <nav class="app__nav">
+        <ul class="nav-list">
+          <li class="nav-list__item nav-list__item--active"><a href></a>Home</li>
+          <li class="nav-list__item"><a href></a>About</li>
+          <li class="nav-list__item"><a href></a>Places</li>
+          <li class="nav-list__item"><a href></a>Carers</li>
+          <li class="nav-list__item"><a href></a>Blog</li>
+        </ul>
+      </nav>
+      <button class="app__button">Connect</button>
+    </header>
+    <main class="app__main">
+      <div class="main">
+        <section class="main__home">
+          <div class="main__wrapper">
+            <div class="main__title">Travel To explore</div>
+            <div class="main__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris </div>
+            <div class="main__search">
+              <div class="search">
+                <div class="search__location">
+                  <div class="search__title">Where You Want to go</div>
+                  <button class="search__button" id="search-localization-btn"><img class="search__icon search__icon--glass" src="/assets/icons/glass.jpg" alt="search"/>Search your Location</button>
+                </div>
+                <div class="search__separator"></div>
+                <div class="search__check-in">
+                  <div class="search__title">Check-in</div>
+                  <div class="form-field">
+                    <input class="search__input" id="datepicker-start" type="text" placeholder="Check-in">
+                  </div>
+                </div>
+                <div class="search__separator"></div>
+                <div class="search__check-out">
+                  <div class="search__title">Check-out</div>
+                  <div class="form-field">
+                    <input class="search__input" id="datepicker-end" type="text" placeholder="Check-out">
+                  </div>
+                </div>
+                <button class="app__button app__button--search" id="search">Explore Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__grid">
+          <div class="grid">
+            <div class="grid__box">
+              <div class="grid__icon">
+                <figure>
+                  <img src="/assets/icons/prices.svg" alt="prices"/>
+                </figure>
+              </div>
+              <div class="grid__title">Get Best Prices</div>
+              <div class="grid__description">Pay through our application and save thousands and get amazing rewards</div>
+            </div>
+
+            <div class="grid__box">
+              <div class="grid__icon">
+                <figure>
+                  <img src="/assets/icons/covid.svg" alt="prices"/>
+                </figure>
+              </div>
+              <div class="grid__title">Get Best Prices</div>
+              <div class="grid__description">We have all the curated hotels that have all the precaution for a corvid safe environment</div>
+            </div>
+
+            <div class="grid__box">
+              <div class="grid__icon">
+                <figure>
+                  <img src="/assets/icons/payment.svg" alt="prices"/>
+                </figure>
+              </div>
+              <div class="grid__title">Get Best Prices</div>
+              <div class="grid__description">We have all the curated hotels that have all the precaution for a corvid safe environment</div>
+            </div>
+
+            <div class="grid__box">
+              <div class="grid__icon">
+                <figure>
+                  <img src="/assets/icons/nerby.svg" alet="prices"/>
+                </figure>
+              </div>
+              <div class="grid__title">Get Best Prices</div>
+              <div class="grid__description">We have all the curated hotels that have all the precaution for a corvid safe environment</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="app__footer">
+    </footer>
+  </body>
+</html>
+<script type="module" src="js/components/MCDatepicker-master/dist/mc-calendar.min.js"></script>
+<script src="js/main.js" defer></script>
+<script
+  defer
+  src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+></script>
